@@ -1,0 +1,483 @@
+.desktop-container1 {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.desktop-thq-nav-elm {
+  gap: 201px;
+  width: 100%;
+  display: flex;
+  padding: 24px 48px;
+  z-index: 3;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+  background-color: var(--dl-color-background-background2);
+  animation: fadeInDown 0.5s ease-out;
+}
+ 
+.desktop-thq-navcontent-elm {
+  gap: 574px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: space-between;
+}
+ 
+.desktop-thq-logo-elm {
+  gap: 30px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.desktop-thq-text-elm1 {
+  color: var(--dl-color-paragraph-paragraph2);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Press Start 2P;
+  font-weight: 400;
+  line-height: 120.00000476837158%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop-thq-desktop-elm {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: var(--dl-color-background-background1);
+}
+ 
+.desktop-thq-headersection-elm {
+  gap: 10px;
+  display: flex;
+  padding: 120px 48px 48px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  animation-delay: 0s;
+  justify-content: center;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+ 
+.desktop-thq-text-elm2 {
+  color: rgb(0, 0, 0);
+  height: auto;
+  font-size: 96px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "PressStart2P-Regular";
+  font-weight: 400;
+  line-height: 117.021%;
+  font-stretch: normal;
+  animation-name: none;
+  animation-delay: 0s;
+  text-decoration: none;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+ 
+.desktop-thq-main-elm {
+  display: flex;
+  z-index: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.desktop-thq-image-elm {
+  display: grid;
+  padding: 477px;
+  align-self: stretch;
+  flex-shrink: 0;
+  padding-left: 376px;
+  background-size: contain;
+  background-image: url("public/tq_cy-zxfmns8-fxq-1100h.png");
+  background-position: top;
+}
+ 
+.desktop-thq-text-elm3 {
+  color: rgb(255, 255, 255);
+  width: 1172px;
+  height: auto;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "PressStart2P-Regular";
+  font-weight: 400;
+  line-height: 120%;
+  text-shadow: rgba(0, 0, 0, 0.25) 2px 2px 4px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop-thq-linkssection-elm {
+  gap: 24px;
+  display: flex;
+  padding: 48px 0;
+  flex-wrap: wrap;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.desktop-thq-linkcard1-elm {
+  gap: 10px;
+  width: 500px;
+  height: 600px;
+  display: flex;
+  padding: 10px 24px;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 10px;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.10000000149011612);
+  background-image: url("public/tq_j92htos5po-bnwl-600h.png");
+}
+ 
+.desktop-thq-text-elm4 {
+  color: var(--dl-color-paragraph-paragraph2);
+  height: auto;
+  font-size: 32px;
+  align-self: stretch;
+  font-style: normal;
+  text-align: center;
+  font-family: "EB Garamond";
+  line-height: 120%;
+  letter-spacing: 0em;
+  text-decoration: underline;
+}
+ 
+.desktop-thq-linkcard2-elm {
+  gap: 10px;
+  width: 500px;
+  height: 600px;
+  display: flex;
+  padding: 10px 24px;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 10px;
+  animation-name: none;
+  flex-direction: column;
+  animation-delay: 0s;
+  background-size: cover;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.20000000298023224);
+  background-image: url("public/tq_5ygfqkcg6n-s5z-600h.png");
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+ 
+.desktop-thq-text-elm5 {
+  color: var(--dl-color-paragraph-paragraph2);
+  height: auto;
+  font-size: 32px;
+  align-self: stretch;
+  font-style: normal;
+  text-align: center;
+  font-family: "EB Garamond";
+  line-height: 120%;
+  letter-spacing: 0em;
+  text-decoration: underline;
+}
+ 
+.desktop-thq-registrysection-elm {
+  gap: 10px;
+  width: 1919px;
+  height: 845px;
+  display: flex;
+  padding: 232px 298px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  padding-left: 223px;
+  padding-right: 204px;
+  flex-direction: column;
+  padding-bottom: 232px;
+  background-size: contain;
+  justify-content: flex-end;
+  background-image: url("public/external/sad/final-2000w.jpeg");
+  background-position: center;
+}
+ 
+.desktop-thq-registrycontent-elm {
+  gap: 30px;
+  width: 911px;
+  height: 384px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.desktop-thq-registryheadline-elm {
+  gap: 20px;
+  width: 100%;
+  height: 143px;
+  display: flex;
+  padding: 0 100px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.desktop-thq-text-elm6 {
+  color: var(--dl-color-paragraph-paragraph2);
+  width: 664px;
+  height: auto;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "PressStart2P-Regular";
+  font-weight: 400;
+  line-height: 110%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop-thq-text-elm7 {
+  color: var(--dl-color-paragraph-paragraph2);
+  width: 1064px;
+  height: auto;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "PressStart2P-Regular";
+  font-weight: 400;
+  line-height: 120%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop-thq-footer-elm {
+  gap: 24px;
+  width: 1928px;
+  height: 303px;
+  display: flex;
+  padding: 24px 0;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-background-background2);
+}
+ 
+.desktop-thq-footercontent-elm {
+  gap: 24px;
+  width: 100%;
+  height: 140.7529296875px;
+  display: flex;
+  padding: 0 10px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  padding-left: 144px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+ 
+.desktop-thq-text-elm8 {
+  color: rgb(255, 255, 255);
+  height: auto;
+  flex-grow: 1;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: center;
+  font-family: Aboreto;
+  font-weight: 400;
+  line-height: 110%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop-link {
+  display: contents;
+}
+ 
+.desktop-container2 {
+  right: 50px;
+  border: 1px solid #ffffff5c;
+  bottom: 30px;
+  display: flex;
+  z-index: 22;
+  position: fixed;
+  box-shadow: 5px 5px 10px 0px rgba(31, 31, 31, 0.4);
+  min-height: auto;
+  align-items: center;
+  padding-top: 8px;
+  padding-left: 12px;
+  border-radius: 8px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  backdrop-filter: blur(6px);
+  background-color: rgba(41, 41, 41, 0.41);
+}
+ 
+.desktop-icon1 {
+  width: 24px;
+  margin-right: 4px;
+}
+ 
+.desktop-text19 {
+  color: white;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+ 
+@media(max-width: 1600px) {
+  .desktop-thq-headersection-elm {
+    animation-name: none;
+    animation-delay: 0s;
+    animation-duration: 300ms;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+  }
+  .desktop-thq-text-elm2 {
+    color: rgb(0, 0, 0);
+    height: auto;
+    font-size: 96px;
+    text-align: center;
+    font-family: PressStart2P-Regular;
+    font-weight: 400;
+    line-height: 117.021%;
+    font-stretch: normal;
+    animation-delay: 0s;
+    text-decoration: none;
+    animation-duration: 300ms;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+  }
+  .desktop-thq-image-elm {
+    height: 1061px;
+    display: flex;
+    align-items: stretch;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    flex-direction: column-reverse;
+    padding-bottom: 274px;
+    background-size: cover;
+    justify-content: space-between;
+  }
+  .desktop-thq-text-elm3 {
+    color: rgb(255, 255, 255);
+    width: 1172px;
+    height: auto;
+    font-size: 25px;
+    align-self: center;
+    text-align: center;
+    font-family: PressStart2P-Regular;
+    font-weight: 400;
+    line-height: 120%;
+    text-shadow: rgba(0, 0, 0, 0.25) 2px 2px 4px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .desktop-thq-registrysection-elm {
+    width: 1599px;
+    display: block;
+    align-self: center;
+    padding-left: 327px;
+    padding-right: 215px;
+    background-size: contain;
+    background-image: url("public/external/sad/final-2000w.jpeg");
+  }
+  .desktop-thq-registrycontent-elm {
+    width: 1035px;
+  }
+  .desktop-thq-footer-elm {
+    width: 1600px;
+    height: 255px;
+    align-self: center;
+    padding-top: 42px;
+    padding-left: 12px;
+    margin-bottom: 0px;
+    padding-right: 88px;
+    padding-bottom: 0px;
+  }
+}
+ 
+@media(max-width: 1200px) {
+  .desktop-thq-image-elm {
+    width: 1199px;
+    height: 955px;
+    align-self: center;
+    flex-direction: column-reverse;
+    background-size: contain;
+    justify-content: space-between;
+    background-position: center;
+  }
+  .desktop-thq-text-elm3 {
+    display: block;
+    align-self: flex-end;
+    border-color: var(--dl-color-theme-neutral-dark);
+    border-width: 1px;
+  }
+  .desktop-thq-registrysection-elm {
+    width: 1199px;
+    height: 796px;
+    display: block;
+    align-self: stretch;
+    margin-top: 0px;
+    padding-top: 250px;
+    padding-left: 142px;
+    margin-bottom: 0px;
+    padding-bottom: 250px;
+    background-size: contain;
+    background-image: url("public/external/sad/final-2000w.jpeg");
+  }
+  .desktop-thq-registrycontent-elm {
+    height: 541px;
+    margin-bottom: 0px;
+    padding-bottom: var(--dl-layout-space-sixunits);
+  }
+  .desktop-thq-footer-elm {
+    width: 1199px;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  .desktop-thq-footercontent-elm {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 37px;
+  }
+  .desktop-text11 {
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    font-family: Aboreto;
+    font-weight: 400;
+    line-height: 110%;
+    text-decoration: none;
+  }
+}

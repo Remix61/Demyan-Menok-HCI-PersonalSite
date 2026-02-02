@@ -1,0 +1,984 @@
+.project-container1 {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.project-thq-nav-elm {
+  gap: 201px;
+  width: 100%;
+  display: flex;
+  padding: 24px 48px;
+  z-index: 3;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+  background-color: var(--dl-color-background-background2);
+  animation: fadeInDown 0.5s ease-out;
+}
+
+.project-thq-navcontent-elm {
+  gap: 574px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: space-between;
+}
+ 
+.project-thq-logo-elm {
+  gap: 30px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.project-thq-text-elm10 {
+  color: var(--dl-color-paragraph-paragraph2);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Press Start 2P;
+  font-weight: 400;
+  line-height: 120.00000476837158%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.project-thq-navlinks-elm {
+  gap: 63px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+ 
+.project-thq-text-elm11 {
+  color: var(--dl-color-paragraph-paragraph2);
+  height: auto;
+  font-size: 14px;
+  font-style: normal;
+  text-align: right;
+  font-family: "Geist";
+  line-height: 120%;
+  letter-spacing: 0.1em;
+  text-decoration: underline;
+}
+ 
+.project-thq-text-elm12 {
+  color: var(--dl-color-paragraph-paragraph2);
+  height: auto;
+  font-size: 14px;
+  font-style: normal;
+  text-align: right;
+  font-family: "Geist";
+  line-height: 120%;
+  letter-spacing: 0.1em;
+  text-decoration: underline;
+}
+ 
+.project-thq-text-elm13 {
+  color: var(--dl-color-paragraph-paragraph2);
+  height: auto;
+  font-size: 14px;
+  font-style: normal;
+  text-align: center;
+  font-family: "Geist";
+  line-height: 120%;
+  letter-spacing: 0.1em;
+  text-decoration: underline;
+}
+ 
+.project-thq-desktop-elm {
+  gap: 6px;
+  width: 100%;
+  height: 7328px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: var(--dl-color-paragraph-paragraph2);
+}
+ 
+.project-thq-headersection-elm {
+  gap: 48px;
+  display: flex;
+  padding: 342px 0;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  animation-name: none;
+  flex-direction: column;
+  animation-delay: 0s;
+  background-size: cover;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("public/tq_cu_e3l77xz-hqkm-7400h.png");
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+ 
+.project-thq-text-elm14 {
+  color: var(--dl-color-paragraph-paragraph2);
+  width: 934px;
+  height: auto;
+  font-size: 50px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "PressStart2P-Regular";
+  font-weight: 400;
+  line-height: 120%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.project-thq-main-elm {
+  height: 5152px;
+  display: flex;
+  z-index: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.project-thq-frame1-elm {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.project-thq-detailssection-elm {
+  gap: 10px;
+  display: flex;
+  padding: 96px 130px 48px;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.project-thq-detailcard1-elm {
+  gap: 10px;
+  display: flex;
+  padding: 190px 228px;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: center;
+  border-radius: 10px;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/external/sad/screenshot%202026-02-01%20232054-5200h.png");
+  background-repeat: repeat;
+  background-position: top;
+}
+ 
+.project-thq-contents-elm {
+  gap: 96px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.project-thq-text-elm15 {
+  color: rgb(255, 255, 255);
+  width: 918px;
+  height: auto;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "PressStart2P-Regular";
+  font-weight: 400;
+  line-height: 120%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.project-text14 {
+  color: #ffffff;
+  font-size: 32px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 120%;
+  text-decoration: none;
+}
+ 
+.project-thq-imagedividersection-elm {
+  gap: 10px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  padding-left: 130px;
+  padding-right: 130px;
+  flex-direction: row-reverse;
+  padding-bottom: 48px;
+  justify-content: center;
+}
+ 
+.project-thq-imagedivider-elm {
+  gap: 10px;
+  width: 1264px;
+  height: 777px;
+  display: flex;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  padding-top: 10px;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  background-size: cover;
+  background-image: url("public/tq_n4apvbxhfz-phq8-800h.png");
+}
+ 
+.project-thq-infosection-elm {
+  gap: 10px;
+  display: flex;
+  padding: 24px 130px 48px;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.project-thq-infocards-elm {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.project-thq-infocard1-elm {
+  gap: 48px;
+  display: flex;
+  opacity: 0.70;
+  padding: 80px 68px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  border-radius: 10px;
+  flex-direction: column;
+  background-color: var(--dl-color-background-background4);
+}
+ 
+.project-thq-datecontent-elm1 {
+  gap: 10px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.project-thq-text-elm16 {
+  color: var(--dl-color-paragraph-paragraph1);
+  height: auto;
+  font-size: 24px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: center;
+  font-family: "PressStart2P-Regular";
+  font-weight: 400;
+  line-height: 120%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.project-thq-ceremonycontent-elm {
+  gap: 10px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.project-thq-text-elm17 {
+  color: var(--dl-color-paragraph-paragraph1);
+  height: auto;
+  font-size: 13px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: center;
+  font-family: "PressStart2P-Regular";
+  font-weight: 400;
+  line-height: 120%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.project-thq-receptioncontent-elm {
+  gap: 10px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.project-thq-infocard2-elm {
+  gap: 48px;
+  display: flex;
+  opacity: 0.70;
+  padding: 80px 68px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-background-background4);
+}
+ 
+.project-thq-datecontent-elm2 {
+  gap: 10px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.project-thq-text-elm18 {
+  color: var(--dl-color-paragraph-paragraph1);
+  height: auto;
+  font-size: 24px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: center;
+  font-family: "PressStart2P-Regular";
+  font-weight: 400;
+  line-height: 120%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+
+
+
+/* Porta il testo Ideation più in alto nella casella */
+.project-thq-infocard2-elm .project-thq-venuecontent-elm {
+  justify-content: flex-start;
+  padding-top: 1000px; /* regola a tuo piacimento */
+}
+/* Porta tutto il testo in alto */
+.project-thq-infocard2-elm .project-thq-venuecontent-elm {
+  height: auto !important;           /* altezza automatica */
+  justify-content: flex-start !important; /* allinea il testo in alto */
+  padding-top: 0 !important;         /* rimuove padding sopra */
+}
+
+/* Rimuove eventuali margini interni degli span */
+.project-thq-infocard2-elm .project-text35,
+.project-thq-infocard2-elm .project-text38,
+.project-thq-infocard2-elm .project-text41 {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+ 
+.project-thq-venuecontent-elm {
+  gap: 10px;
+  height: 319px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: space-between;
+}
+ 
+.project-thq-text-elm19 {
+  color: var(--dl-color-paragraph-paragraph1);
+  height: auto;
+  font-size: 13px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: center;
+  font-family: Press Start 2P;
+  font-weight: 400;
+  line-height: 120%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.project-text35 {
+  font-family: """PressStart2P-Regular""";
+}
+ 
+.project-text38 {
+  font-family: """PressStart2P-Regular""";
+}
+ 
+.project-text41 {
+  font-family: """PressStart2P-Regular""";
+}
+ 
+.project-text44 {
+  font-family: """PressStart2P-Regular""";
+}
+ 
+.project-text47 {
+  font-family: """PressStart2P-Regular""";
+}
+ 
+.project-thq-travelheadersection-elm {
+  gap: 10px;
+  width: 1919px;
+  height: 1214px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  padding: 64px;
+  background-size: cover;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.30000001192092896);
+  background-image: url("public/tq_7sytw5a7ji-qbag-1300h.png");
+}
+ 
+.project-thq-text-elm20 {
+  color: var(--dl-color-paragraph-paragraph2);
+  height: auto;
+  flex-grow: 1;
+  font-size: 48px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "PressStart2P-Regular";
+  font-weight: 400;
+  line-height: 120%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.project-thq-travelcard1-elm {
+  height: 822px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.project-thq-textblock-elm {
+  gap: 10px;
+  width: 773px;
+  height: 779px;
+  display: flex;
+  opacity: 0.70;
+  padding: 183px 64px;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 10px 0 0 10px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-background-background4);
+}
+ 
+.project-thq-text-elm21 {
+  color: var(--dl-color-paragraph-paragraph1);
+  height: auto;
+  font-size: 28px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: center;
+  font-family: "PressStart2P-Regular";
+  font-weight: 400;
+  line-height: 120.00000476837158%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.project-thq-image-elm1 {
+  width: 791px;
+  height: 763px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 0 10px 0 0;
+  background-size: cover;
+  background-image: url("public/tq_ub4flcdiub-sxv-800w.png");
+}
+ 
+.project-thq-travelcard2-elm {
+  height: 1045px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.project-thq-image-elm2 {
+  width: 753px;
+  height: 834px;
+  border-radius: 10px 0 0 10px;
+}
+ 
+.project-thq-content-elm {
+  gap: 10px;
+  width: 783px;
+  display: flex;
+  opacity: 0.70;
+  padding: 183px 64px;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 0 10px 10px 0;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-background-background4);
+}
+ 
+.project-thq-text-elm26 {
+  color: var(--dl-color-paragraph-paragraph1);
+  height: auto;
+  font-size: 28px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: center;
+  font-family: Press Start 2P;
+  font-weight: 400;
+  line-height: 120%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.project-text55 {
+  font-family: "PressStart2P-Regular";
+}
+ 
+.project-text56 {
+  font-family: "PressStart2P-Regular";
+}
+ 
+.project-text57 {
+  font-family: "PressStart2P-Regular";
+}
+ 
+.project-text58 {
+  font-family: "PressStart2P-Regular";
+}
+ 
+.project-text59 {
+  font-family: "PressStart2P-Regular";
+}
+ 
+.project-text60 {
+  color: var(--dl-color-paragraph-paragraph1);
+  font-size: 28px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 120%;
+  text-decoration: none;
+}
+ 
+.project-text61 {
+  font-family: "PressStart2P-Regular";
+}
+ 
+.project-text62 {
+  font-family: "PressStart2P-Regular";
+}
+ 
+.project-text64 {
+  font-family: "PressStart2P-Regular";
+}
+ 
+.project-text65 {
+  font-family: "PressStart2P-Regular";
+}
+ 
+.project-thq-registrysection-elm {
+  gap: 10px;
+  width: 1919px;
+  height: 1068px;
+  display: flex;
+  padding: 232px 298px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  margin-bottom: 111px;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/tq_8pr-bjlsgv-ghm-2000w.png");
+}
+ 
+.project-thq-registrycontent-elm {
+  gap: 30px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.project-thq-registryheadline-elm {
+  gap: 20px;
+  display: flex;
+  padding: 0 100px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.project-thq-text-elm27 {
+  color: var(--dl-color-paragraph-paragraph2);
+  width: 664px;
+  height: auto;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "PressStart2P-Regular";
+  font-weight: 400;
+  line-height: 110%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.project-thq-text-elm28 {
+  color: var(--dl-color-paragraph-paragraph2);
+  height: auto;
+  flex-grow: 1;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "PressStart2P-Regular";
+  font-weight: 400;
+  line-height: 120%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.project-thq-footer-elm {
+  gap: 24px;
+  width: 100%;
+  height: 294px;
+  display: flex;
+  z-index: 3;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  padding: 61px 24px 24px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-background-background2);
+}
+ 
+.project-thq-footercontent-elm {
+  gap: 24px;
+  height: 140.7529296875px;
+  display: flex;
+  padding: 0 10px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: space-between;
+}
+ 
+.project-thq-text-elm29 {
+  color: rgb(255, 255, 255);
+  height: auto;
+  flex-grow: 1;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: center;
+  font-family: Aboreto;
+  font-weight: 400;
+  line-height: 110%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.project-text69 {
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Aboreto";
+  font-weight: 400;
+  line-height: 110%;
+  text-decoration: none;
+}
+ 
+.project-link {
+  display: contents;
+}
+ 
+.project-container2 {
+  right: 50px;
+  border: 1px solid #ffffff5c;
+  bottom: 30px;
+  display: flex;
+  z-index: 22;
+  position: fixed;
+  box-shadow: 5px 5px 10px 0px rgba(31, 31, 31, 0.4);
+  min-height: auto;
+  align-items: center;
+  padding-top: 8px;
+  padding-left: 12px;
+  border-radius: 8px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  backdrop-filter: blur(6px);
+  background-color: rgba(41, 41, 41, 0.41);
+}
+ 
+.project-icon1 {
+  width: 24px;
+  margin-right: 4px;
+}
+ 
+.project-text77 {
+  color: white;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+ 
+@media(max-width: 1600px) {
+  .project-thq-text-elm11 {
+    color: var(--dl-color-paragraph-paragraph2);
+    height: auto;
+    font-size: 14px;
+    font-style: normal;
+    text-align: right;
+    font-family: Geist;
+    line-height: 120%;
+    letter-spacing: 0.1em;
+    text-decoration: underline;
+  }
+  .project-thq-detailcard1-elm {
+    background-size: cover;
+    background-image: url("public/external/sad/screenshot%202026-02-01%20232054-5200h.png");
+  }
+  .project-thq-infocard1-elm {
+    padding-bottom: 45px;
+  }
+  .project-thq-text-elm17 {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-family: PressStart2P-Regular;
+    background-clip: text;
+    background-image: inherit;
+    webkit-background-clip: text;
+  }
+  .project-text20 {
+    text-align: center;
+    font-family: PressStart2P-Regular;
+  }
+  .project-text21 {
+    text-align: center;
+    font-family: PressStart2P-Regular;
+  }
+  .project-text22 {
+    text-align: center;
+    font-family: PressStart2P-Regular;
+    font-weight: 400;
+    line-height: 120%;
+    text-decoration: none;
+  }
+  .project-text23 {
+    text-align: center;
+    font-family: PressStart2P-Regular;
+  }
+  .project-text24 {
+    text-align: center;
+    font-family: PressStart2P-Regular;
+  }
+  .project-text26 {
+    text-align: center;
+    font-family: PressStart2P-Regular;
+  }
+  .project-text27 {
+    text-align: center;
+    font-family: PressStart2P-Regular;
+  }
+  .project-text29 {
+    text-align: center;
+    font-family: PressStart2P-Regular;
+  }
+  .project-text30 {
+    text-align: center;
+    font-family: PressStart2P-Regular;
+  }
+  .project-text32 {
+    text-align: center;
+    font-family: PressStart2P-Regular;
+  }
+  .project-text33 {
+    text-align: center;
+    font-family: PressStart2P-Regular;
+  }
+  .project-text34 {
+    text-align: center;
+    font-family: PressStart2P-Regular;
+  }
+  .project-thq-text-elm19 {
+    color: var(--dl-color-paragraph-paragraph1);
+    font-size: 16px;
+  }
+  .project-text35 {
+    font-family: PressStart2P-Regular;
+  }
+  .project-text36 {
+    color: var(--dl-color-paragraph-paragraph1);
+    text-align: center;
+    font-weight:  400;
+    line-height: 120%;
+    text-decoration: none;
+  }
+  .project-text37 {
+    font-family: PressStart2P-Regular;
+  }
+  .project-text38 {
+    font-family: PressStart2P-Regular;
+  }
+  .project-text40 {
+    font-family: PressStart2P-Regular;
+  }
+  .project-text41 {
+    font-family: PressStart2P-Regular;
+  }
+  .project-text43 {
+    font-family: PressStart2P-Regular;
+  }
+  .project-text44 {
+    font-family: PressStart2P-Regular;
+  }
+  .project-text46 {
+    font-family: PressStart2P-Regular;
+  }
+  .project-text47 {
+    font-family: PressStart2P-Regular;
+  }
+  .project-thq-travelheadersection-elm {
+    width: 1599px;
+  }
+  .project-thq-registrysection-elm {
+    width: 1600px;
+    height: 1023px;
+    padding-top: 0px;
+    padding-left: 67px;
+    padding-right: 107px;
+    padding-bottom: 0px;
+  }
+  .project-thq-text-elm28 {
+    color: var(--dl-color-paragraph-paragraph2);
+    height: auto;
+    flex-grow: 1;
+    font-size: 20px;
+    align-self: center;
+    text-align: center;
+    font-family: PressStart2P-Regular;
+    font-weight: 400;
+    line-height: 120%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+}
+ 
+@media(max-width: 1200px) {
+  .project-thq-travelheadersection-elm {
+    width: 1199px;
+  }
+  .project-thq-textblock-elm {
+    width: 681px;
+    height: 613px;
+  }
+  .project-thq-image-elm1 {
+    width: 469px;
+    height: 649px;
+  }
+  .project-thq-image-elm2 {
+    width: 554px;
+    height: 916px;
+  }
+  .project-thq-content-elm {
+    width: 616px;
+    height: 827px;
+  }
+  .project-thq-registrysection-elm {
+    width: 1199px;
+  }
+}
+/* ===============================
+   PROJECT – IDEATION / PROTOTYPE
+   =============================== */
+
+/* Rimpicciolisco il testo */
+.project-thq-text-elm21,
+.project-thq-text-elm26 {
+  font-size: 22px;        /* prima era 28px */
+  line-height: 130%;
+}
+
+/* Porto il testo più in alto e lo allineo meglio */
+.project-thq-textblock-elm,
+.project-thq-content-elm {
+  padding-top: 120px;     /* prima 183px */
+  padding-bottom: 80px;
+  justify-content: flex-start;
+}
+.project-thq-text-elm21,
+.project-thq-text-elm26 {
+  font-size: 20px;
+}
+.project-thq-textblock-elm,
+.project-thq-content-elm {
+  padding-top: 100px;
+}
+/* ===============================
+   FIX ALTEZZA PAGINA – FULL PROCESS
+   =============================== */
+
+/* Contenitore principale */
+.project-thq-desktop-elm {
+  height: auto;
+  min-height: 100vh;
+}
+
+/* Main content */
+.project-thq-main-elm {
+  height: auto;
+  min-height: 1000px;
+}
+/* ===============================
+   PROJECT – IDEATION: TIRA IN SU
+   =============================== */
+
+/* Riduco lo spazio sopra la box */
+.project-thq-textblock-elm {
+  padding-top: 120px;   /* prima era 183px */
+  padding-bottom: 80px; /* prima era 183px o 183px */
+  justify-content: flex-start;
+}
+
+/* Testo leggermente più compatto */
+.project-thq-text-elm21 {
+  font-size: 22px;      /* prima 28px */
+  line-height: 130%;
+}
+
+
+

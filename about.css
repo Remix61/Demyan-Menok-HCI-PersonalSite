@@ -1,0 +1,421 @@
+.about-container1 {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.about-thq-nav-elm {
+  gap: 201px;
+  width: 100%;
+  display: flex;
+  padding: 24px 48px;
+  z-index: 3;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+  background-color: var(--dl-color-background-background2);
+}
+ 
+.about-thq-navcontent-elm {
+  gap: 574px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: space-between;
+}
+ 
+.about-thq-logo-elm {
+  gap: 30px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.about-thq-text-elm10 {
+  color: var(--dl-color-paragraph-paragraph2);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Press Start 2P;
+  font-weight: 400;
+  line-height: 120.00000476837158%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.about-thq-navlinks-elm {
+  gap: 63px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+ 
+.about-thq-text-elm11 {
+  color: var(--dl-color-paragraph-paragraph2);
+  height: auto;
+  font-size: 14px;
+  font-style: normal;
+  text-align: right;
+  font-family: "Geist";
+  line-height: 120%;
+  letter-spacing: 0.1em;
+  text-decoration: underline;
+}
+ 
+.about-thq-text-elm12 {
+  color: var(--dl-color-paragraph-paragraph2);
+  height: auto;
+  font-size: 14px;
+  font-style: normal;
+  text-align: right;
+  font-family: "Geist";
+  line-height: 120%;
+  letter-spacing: 0.1em;
+  text-decoration: underline;
+}
+ 
+.about-thq-text-elm13 {
+  color: var(--dl-color-paragraph-paragraph2);
+  height: auto;
+  font-size: 14px;
+  font-style: normal;
+  text-align: center;
+  font-family: "Geist";
+  line-height: 120%;
+  letter-spacing: 0.1em;
+  text-decoration: underline;
+}
+ 
+.about-thq-desktop-elm {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: var(--dl-color-background-background1);
+}
+ 
+.about-thq-headersection-elm {
+  gap: 10px;
+  display: flex;
+  padding: 186px 0 48px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.about-thq-andreariondinoke-yv-o-uy3j-kgunsplash-elm {
+  width: 305px;
+  height: 368px;
+  border-radius: 21px;
+  transition: transform 0.5s ease;
+}
+.about-thq-andreariondinoke-yv-o-uy3j-kgunsplash-elm:hover {
+  transform: scale(1.03);
+}
+ 
+.about-thq-text-elm14 {
+  color: var(--dl-color-paragraph-paragraph1);
+  width: 918px;
+  height: auto;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "PressStart2P-Regular";
+  font-weight: 400;
+  line-height: 110%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.about-thq-textblock1-elm {
+  gap: 10px;
+  width: 100%;
+  height: 829px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  padding: 48px 104px;
+  justify-content: center;
+}
+ 
+.about-thq-text-elm15 {
+  color: var(--dl-color-paragraph-paragraph1);
+  width: 1192px;
+  height: auto;
+  display: block;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "PressStart2P-Regular";
+  font-weight: 400;
+  line-height: 120%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.about-thq-group2-elm {
+  width: 100%;
+  height: 1365px;
+  display: flex;
+  z-index: 1;
+  position: relative;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.about-thq-main-elm {
+  top: 0px;
+  left: 0px;
+  width: 1919px;
+  display: flex;
+  padding: 0 133px 96px;
+  position: absolute;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.about-thq-textblock2-elm {
+  gap: 10px;
+  display: flex;
+  padding: 48px 104px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.about-thq-image-elm {
+  gap: 10px;
+  width: 1654px;
+  height: 562px;
+  display: flex;
+  padding: 0 0 48px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.about-thq-polaroid-images-elm {
+  width: 585px;
+  height: 693.3883056640625px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.about-thq-rochellelee-nfqm-odq-vv4unsplash-elm {
+  top: 14.620142936706543px;
+  left: -0.000050187110900878906px;
+  width: 336px;
+  height: 531px;
+  position: absolute;
+  border-radius: 10px;
+}
+ 
+.about-thq-rolanddeason-u3u8zsi-isunsplash-elm {
+  top: 244.6583251953125px;
+  left: 294.3614807128906px;
+  width: 292px;
+  height: 423px;
+  position: absolute;
+  border-radius: 3px;
+}
+ 
+.about-thq-textblock3-elm {
+  gap: 10px;
+  width: 1638px;
+  display: flex;
+  padding: 48px 104px 96px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.about-thq-text-elm16 {
+  color: var(--dl-color-paragraph-paragraph1);
+  width: 806px;
+  height: auto;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "PressStart2P-Regular";
+  font-weight: 400;
+  line-height: 120%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.about-thq-footer-elm {
+  gap: 24px;
+  height: 228px;
+  display: flex;
+  padding: 24px 0;
+  z-index: 2;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  padding-top: 75px;
+  flex-direction: column;
+  padding-bottom: 3px;
+  justify-content: center;
+  background-color: var(--dl-color-background-background2);
+}
+ 
+.about-thq-footercontent-elm {
+  gap: 24px;
+  height: 140.7529296875px;
+  display: flex;
+  padding: 0 10px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.about-thq-text-elm17 {
+  color: var(--dl-color-paragraph-paragraph2);
+  height: auto;
+  flex-grow: 1;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: center;
+  font-family: Aboreto;
+  font-weight: 400;
+  line-height: 110.00000238418579%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.about-link {
+  display: contents;
+}
+ 
+.about-container2 {
+  right: 50px;
+  border: 1px solid #ffffff5c;
+  bottom: 30px;
+  display: flex;
+  z-index: 22;
+  position: fixed;
+  box-shadow: 5px 5px 10px 0px rgba(31, 31, 31, 0.4);
+  min-height: auto;
+  align-items: center;
+  padding-top: 8px;
+  padding-left: 12px;
+  border-radius: 8px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  backdrop-filter: blur(6px);
+  background-color: rgba(41, 41, 41, 0.41);
+}
+ 
+.about-icon1 {
+  width: 24px;
+  margin-right: 4px;
+}
+ 
+.about-text27 {
+  color: white;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+ 
+@media(max-width: 1600px) {
+  .about-thq-text-elm10 {
+    color: var(--dl-color-paragraph-paragraph2);
+    height: auto;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 120%;
+    font-stretch: normal;
+  }
+  .about-thq-text-elm14 {
+    color: var(--dl-color-paragraph-paragraph1);
+    width: 918px;
+    height: auto;
+    display: block;
+    font-size: 32px;
+    align-self: center;
+    text-align: center;
+    font-family: PressStart2P-Regular;
+    font-weight: 400;
+    line-height: 110%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .about-thq-textblock1-elm {
+    width: 100%;
+    height: 841px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .about-thq-text-elm15 {
+    color: var(--dl-color-paragraph-paragraph1);
+    width: 1011px;
+    height: 837px;
+    font-family: PressStart2P-Regular;
+  }
+  .about-thq-group2-elm {
+    height: 1225px;
+    margin-bottom: 0px;
+    padding-bottom: 161px;
+  }
+  .about-thq-main-elm {
+    width: 1599px;
+    height: 1245px;
+  }
+  .about-thq-image-elm {
+    width: 1280px;
+  }
+  .about-thq-textblock3-elm {
+    width: 1377px;
+    height: 592px;
+  }
+  .about-thq-text-elm16 {
+    color: var(--dl-color-paragraph-paragraph1);
+  }
+  .about-text19 {
+    font-family: PressStart2P-Regular;
+  }
+  .about-text20 {
+    font-family: PressStart2P-Regular;
+  }
+  .about-text23 {
+    font-family: PressStart2P-Regular;
+  }
+}
+ 
+@media(max-width: 1200px) {
+  .about-thq-textblock1-elm {
+    width: 100%;
+  }
+  .about-thq-main-elm {
+    width: 1199px;
+  }
+  .about-thq-image-elm {
+    width: 1073px;
+  }
+  .about-thq-textblock3-elm {
+    width: 1001px;
+    margin-right: 0px;
+  }
+}

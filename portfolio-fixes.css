@@ -1,0 +1,97 @@
+/* Portfolio fixes - text overflow, clean layout */
+
+/* Prevent text overflow in all text containers */
+.desktop-thq-text-elm3,
+.desktop-thq-text-elm7,
+.about-thq-text-elm14,
+.about-thq-text-elm15,
+.about-thq-text-elm16,
+.project-thq-text-elm14,
+.project-thq-text-elm15,
+.project-thq-text-elm16,
+.project-thq-text-elm17,
+.project-thq-text-elm18,
+.project-thq-text-elm19,
+.project-thq-text-elm20,
+.project-thq-text-elm21,
+.project-thq-text-elm26,
+.project-thq-text-elm27,
+.project-thq-text-elm28 {
+  max-width: 100%;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+/* Content boxes - ensure text fits */
+.project-thq-contents-elm,
+.project-thq-ceremonycontent-elm,
+.project-thq-venuecontent-elm,
+.project-thq-textblock-elm,
+.project-thq-content-elm,
+.project-thq-registrycontent-elm,
+.about-thq-textblock1-elm,
+.about-thq-textblock3-elm {
+  max-width: 100%;
+  overflow-wrap: break-word;
+  padding: 1.5rem;
+  box-sizing: border-box;
+}
+
+/* Info cards - fix overflow */
+.project-thq-infocard1-elm,
+.project-thq-infocard2-elm {
+  min-width: 0;
+  overflow: hidden;
+}
+
+.project-thq-text-elm17 span,
+.project-thq-text-elm19 span {
+  display: inline;
+  max-width: 100%;
+}
+
+/* Detail card intro */
+.project-thq-detailcard1-elm {
+  padding: 3rem 2rem;
+}
+
+.project-thq-text-elm15 {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Neutral backgrounds - remove gaming imagery */
+.desktop-thq-image-elm {
+  background-image: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  background-size: cover;
+}
+
+.desktop-thq-linkcard1-elm {
+  background-image: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
+}
+
+.desktop-thq-linkcard2-elm {
+  background-image: linear-gradient(135deg, #2c5282 0%, #2b6cb0 100%);
+}
+
+.desktop-thq-registrysection-elm {
+  background-image: linear-gradient(180deg, #1a202c 0%, #2d3748 100%);
+}
+
+.project-thq-detailcard1-elm {
+  background-image: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+}
+
+/* Hide leftover stray characters */
+.about-thq-text-elm15 > span:last-of-type {
+  font-size: 0;
+  line-height: 0;
+  overflow: hidden;
+  max-height: 0;
+  padding: 0;
+  margin: 0;
+}
